@@ -304,6 +304,12 @@ article {
     }
   }
 }
+footer {
+  .div {
+    background: linear-gradient(to right, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+    height: 3px;
+  }
+}
 section {
   max-width: 500px;
   margin: 0 auto;
