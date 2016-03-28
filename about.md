@@ -9,4 +9,4 @@ The main purpose of this theme is to be as simple as it could be, so you can foc
 
 **Just write thing that matters..**
 
-Enjoy!
+Enjoy It!
