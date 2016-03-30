@@ -1,6 +1,7 @@
 body {
   background-image:url(/assets/static/brickwall.png);
-  font-family: 'Fira Sans', sans-serif;
+  /*font-family: 'Fira Sans', sans-serif;*/
+  font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
   padding: 20px;
   margin: 0;
   font-weight: 400;
@@ -22,7 +23,7 @@ img {
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid #555;
+  /*border-bottom: 1px solid #555;*/
   &.image {
     display: block;
     text-align: center;
@@ -194,6 +195,31 @@ ol {
     border-radius: 5px;
   }
 }
+p {
+  margin-bottom: 5px;
+  img {
+    margin-top: 20px;
+	margin-bottom: 0px;
+	border-radius: 5px
+  }
+}
+
+#picTime {
+  float: right;
+}
+#picInfo {
+  a {
+  	color: gray;
+  }
+}
+
+/*
+.picInfo {
+  color: gray;
+  font-size: 13px;
+  vertical-align: top;
+}
+*/
 sup {
   vertical-align: top;
   position: relative;
@@ -262,7 +288,7 @@ article {
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
     background: -webkit-linear-gradient(left,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
     background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
-    height: 1px;
+    height: 4px;
     margin: 2em 0;
   }
   .center {
@@ -339,6 +365,9 @@ section {
         float: right;
         margin: 0 0 0 20px;
       }
+	  .post-moment {
+		margin: 0 0 0 0;
+	  }
       span {
         display: inline-block;
         color: #757575;

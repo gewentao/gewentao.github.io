@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/notes/lorem-ipsum</loc>
-    <lastmod>2015-09-06T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/notes/markdown-cheatsheet-demo</loc>
-    <lastmod>2015-09-04T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/about.html</loc>
-  </url>
-  <url>
-    <loc>/</loc>
-  </url>
+<url>
+<loc>/notes/%25E8%259B%25A4%25E8%259B%25A4</loc>
+<lastmod>2015-09-05T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>/notes/%25E6%2590%259E%25E4%25B8%25AA%25E5%25A4%25A7%25E6%2596%25B0%25E9%2597%25BB</loc>
+<lastmod>2013-01-01T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>/notes/%25E8%25A7%2581%25E9%25A3%258E%25E5%25B0%25B1%25E6%2598%25AF%25E9%259B%25A8</loc>
+<lastmod>2011-01-01T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>/404</loc>
+</url>
+<url>
+<loc>/about</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/moments</loc>
+</url>
 </urlset>

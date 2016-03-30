@@ -1,0 +1,18 @@
+---
+title: Moments
+layout: default
+---
+
+<section>
+
+		{% for moment in site.moments %}
+
+	    {{ moment.content }}
+		<div class="picInfo" id="picInfo">
+		<a class="picInfo"><i class="fa fa-map-marker"></i> {{ moment.location}}</a>
+		<a class="picInfo" id="picTime"><i class="fa fa-clock-o"></i> {{ moment.time | date: "%b %d, %Y"}}</a>
+		<hr class="photo_line" style="border : 1px dashed #DDDDDD;">
+		</div>
+		{% endfor %}
+
+</section>
